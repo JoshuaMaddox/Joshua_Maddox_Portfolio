@@ -1,0 +1,24 @@
+/*
+COLORS USED:
+coral #e14658
+coral shadow #6f1822
+coral hover #d14152
+navy #22252c
+navy hover & Shadow #1d2026
+
+FONTS USED:
+
+OSWALD - H tags and Button Text
+MONTSERRAT - Body Text
+*/
+
+/* ================= fonts ================= */
+
+@font-face { font-family: Oswald-Bold; font-weight: bold; src: url('assets/fonts/oswald/Oswald-Bold.ttf'); }
+@font-face { font-family: Oswald-Light; src: url('assets/fonts/oswald/Oswald-Light.ttf'); }
+@font-face { font-family: Quattrocento-Regular; src: url('assets/fonts/quattrocento/Quattrocento-Regular.ttf');}  
+@font-face { font-family: Quattrocento-Bold; font-weight: bold; src: url('assets/fonts/quattrocento/Quattrocento-Bold.ttf');}
+
+body {
+	background-color: red;
+}
