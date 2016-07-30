@@ -12,13 +12,145 @@ OSWALD - H tags and Button Text
 MONTSERRAT - Body Text
 */
 
-/* ================= fonts ================= */
+/* ================= FONTS ================= */
 
-@font-face { font-family: Oswald-Bold; font-weight: bold; src: url('assets/fonts/oswald/Oswald-Bold.ttf'); }
+@font-face { font-family: Oswald; font-weight: bold; src: url('assets/fonts/oswald/Oswald-Bold.ttf'); }
 @font-face { font-family: Oswald-Light; src: url('assets/fonts/oswald/Oswald-Light.ttf'); }
-@font-face { font-family: Quattrocento-Regular; src: url('assets/fonts/quattrocento/Quattrocento-Regular.ttf');}  
+@font-face { font-family: Quattrocento; src: url('assets/fonts/quattrocento/Quattrocento-Regular.ttf');}  
 @font-face { font-family: Quattrocento-Bold; font-weight: bold; src: url('assets/fonts/quattrocento/Quattrocento-Bold.ttf');}
 
-body {
-	background-color: red;
+/* ================= NAVBAR ================= */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	color: #21252c;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+h2{
+	font-size: 40px;
+}
+
+h3{
+	font-size: 32px;
+}
+
+h4{
+	font-size: 24px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+p {
+	font-family: 'Quattrocento', serif;
+	font-size: 16px;
+}
+
+.btn { /*ADJUST BUTTON APPERANCE HERE*/
+	font-family: 'Oswald', sans-serif;
+	background: none;
+	font-weight: bold;
+	font-size: 1.5em;
+	border-radius: 0;
+	border: 2px solid #fff;
+	text-decoration: none;
+}
+
+.btn:hover, 
+.btn:active, 
+.btn:focus 
+{
+	background: rgba(255, 255, 255, .3);
+	outline: none !important;
+	color: #fff !important;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	color: #fff;
+}
+
+/* ================= HEADER ================= */
+
+.jm-main-header  {
+  width:100%;
+  background-image:url('../imgs/joshua_maddox_cinderhouse.jpg'); /*ADJUST HEADER IMAGE HERE*/
+  background-size:cover;
+  text-align: center;
+  color: white;
+}
+
+.jm-header-text h1 {
+	color: #fff;	
+}
+
+.jm-header-text p {
+	font-size: 1.5em;
+}
+
+
+/* ================= MEDIA QUERIES ================= */	
+
+@media only screen and (max-width : 3840px) {
+
+	.jm-main-header { /*ADJUST MAIN IMAGE MIN HEIGHT AT BREAK*/
+		min-height: 1000px;
+	}
+
+	.jm-header-text { /*ADJUST POSITION OF TEXT AND BUTTONS IN HEADER AT BREAK*/
+	 	margin-top:450px;
+	}
+}
+
+@media only screen and (max-width : 1920px) {
+
+	.jm-main-header { /*ADJUST MAIN IMAGE MIN HEIGHT AT BREAK*/
+		min-height: 800px;
+	}
+
+	.jm-header-text { /*ADJUST POSITION OF TEXT AND BUTTONS IN HEADER AT BREAK*/
+	 	margin-top:300px;
+}
+
+
+@media only screen and (max-width : 1200px) {
+
+
+}
+
+@media only screen and (max-width : 979px) {
+
+
+}
+
+@media only screen and (max-width : 767px) {
+
+	.jm-main-header { /*ADJUST MAIN IMAGE MIN HEIGHT AT BREAK*/
+		min-height: 400px;
+	}
+	.jm-header-text { /*ADJUST POSITION OF TEXT AND BUTTONS IN HEADER AT BREAK*/
+	 	margin-top: 85px;
+	}
+}
+
+@media only screen and (max-width : 480px) {
+
+	.jm-main-header { /*ADJUST MAIN IMAGE MIN HEIGHT AT BREAK*/
+		min-height: 300px;
+	}
+}
+
+@media only screen and (max-width : 320px) {
+
 }
