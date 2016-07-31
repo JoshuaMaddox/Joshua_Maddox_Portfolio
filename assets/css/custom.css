@@ -73,7 +73,7 @@ p {
 	font-weight: bold;
 	font-size: 1.5em;
 	border-radius: 0;
-	border: 2px solid #fff;
+	border: 8px solid #fff;
 	text-decoration: none;
 }
 
@@ -116,6 +116,12 @@ p {
 	padding-bottom: 20px;
 }
 
+.jm-header-img {
+	margin: 0 auto;
+	width: 200px;
+	border: 8px solid #fff;
+}
+
 /* ================= RESUME ================= */
 
 .jm-resume {
@@ -151,7 +157,7 @@ p {
 	}
 
 	.jm-header-text { /*ADJUST POSITION OF TEXT AND BUTTONS IN HEADER AT BREAK*/
-	 	margin-top:400px;
+	 	margin-top: 250px;
 	}
 
 	.jm-resume-box {
@@ -167,7 +173,7 @@ p {
 	}
 
 	.jm-header-text { /*ADJUST POSITION OF TEXT AND BUTTONS IN HEADER AT BREAK*/
-	 	margin-top:275px;
+	 	margin-top:150px;
 	}
 
 	.jm-resume-box { /*ADJUST SPACE ON SIDES OF RESUME BOXES*/
@@ -222,7 +228,7 @@ p {
 	}
 
 	.jm-header-text { /*ADJUST POSITION OF TEXT AND BUTTONS IN HEADER AT BREAK*/
-	 	margin-top: 60px;
+	 	margin-top: 50px;
 	}
 }
 
