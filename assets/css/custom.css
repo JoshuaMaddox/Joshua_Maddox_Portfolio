@@ -79,8 +79,7 @@ p {
 
 .btn:hover, 
 .btn:active, 
-.btn:focus 
-{
+.btn:focus {
 	background: rgba(255, 255, 255, .3);
 	outline: none !important;
 	color: #fff !important;
@@ -135,18 +134,18 @@ p {
 	text-align: center;
 }
 
-.jm-resume-toggle-one, 
-.jm-resume-toggle-four,
-.jm-resume-toggle-five {
+.jm-resume-toggle-two, 
+.jm-resume-toggle-three,
+.jm-resume-toggle-six {
 		background-color: #333;
 		color: #fff;	
 	}
-.jm-resume-toggle-one h2, 
-.jm-resume-toggle-four h2,
-.jm-resume-toggle-five h2,
-.jm-resume-toggle-one h4, 
-.jm-resume-toggle-four h4,
-.jm-resume-toggle-five h4 {
+.jm-resume-toggle-two h2, 
+.jm-resume-toggle-three h2,
+.jm-resume-toggle-six h2,
+.jm-resume-toggle-two h4, 
+.jm-resume-toggle-three h4,
+.jm-resume-toggle-six h4 {
 	color: #fff;
 }
 	
@@ -174,10 +173,23 @@ p {
 	margin: 0 auto;
 }
 
-
-
 .jm-gallery h1, .jm-gallery h4 {
 	color: #fff;
+}
+
+.jm-gallery .img-responsive {
+  filter: url(filters.svg#grayscale);
+  /* Firefox 3.5+ */
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome & Safari 6+ */
+}
+.jm-gallery .img-responsive:hover {
+  filter: none;
+  -webkit-filter: none;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.8s ease;
 }
 
 /* ================= MEDIA QUERIES ================= */	
@@ -220,7 +232,9 @@ p {
 }
 
 @media only screen and (max-width : 979px) {
-
+	.jm-gallery p {
+		margin-bottom: 30px;
+	}
 }
 
 @media only screen and (max-width : 767px) {
@@ -233,23 +247,23 @@ p {
 	}
 
 	.jm-resume-toggle-three { /*ALLOWS RESUME BOX STYLING TO ALTERNATE COLORS ON MEIDA BREAK*/
-		background-color: #333;
-		color: #fff;
-	}
-
-	.jm-resume-toggle-three h2, /*ALLOWS RESUME BOX STYLING TO ALTERNATE COLORS ON MEIDA BREAK*/
-	.jm-resume-toggle-three h4 {
-		color: #fff;
-	}
-
-	.jm-resume-toggle-four { /*ALLOWS RESUME BOX STYLING TO ALTERNATE COLORS ON MEIDA BREAK*/
 		background-color: #fff;
 		color: #333;
 	}
 
+	.jm-resume-toggle-three h2, /*ALLOWS RESUME BOX STYLING TO ALTERNATE COLORS ON MEIDA BREAK*/
+	.jm-resume-toggle-three h4 {
+		color: #333;
+	}
+
+	.jm-resume-toggle-four { /*ALLOWS RESUME BOX STYLING TO ALTERNATE COLORS ON MEIDA BREAK*/
+		background-color: #333;
+		color: #fff;
+	}
+
 	.jm-resume-toggle-four h2, /*ALLOWS RESUME BOX STYLING TO ALTERNATE COLORS ON MEIDA BREAK*/
 	.jm-resume-toggle-four h4 {
-		color: #333;
+		color: #fff;
 	}
 }
 
