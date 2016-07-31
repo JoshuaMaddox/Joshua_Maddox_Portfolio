@@ -92,6 +92,13 @@ p {
 	color: #fff;
 }
 
+.jm-bordered-heading { /*CREATES BORDER AROUND H4 TAGS USING SPANS*/
+	border: 8px solid;
+	padding: 5px;
+	margin: 5px;
+	display: inline-block;
+}
+
 /* ================= HEADER ================= */
 
 .jm-main-header  {
@@ -147,6 +154,12 @@ p {
 	padding: 40px;
 }
 
+/* ================= QUICK POINTS ================= */
+
+.jm-quick-points {
+	text-align: center;
+	padding: 40px;
+}
 
 /* ================= MEDIA QUERIES ================= */	
 
