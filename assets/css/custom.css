@@ -161,6 +161,25 @@ p {
 	padding: 40px;
 }
 
+/* ================= GALLERY ================= */
+
+.jm-gallery {
+	background-color: #333;
+	padding: 40px 0;
+	text-align: center;
+	color: #fff;
+}
+
+.jm-gallery .img-responsive {
+	margin: 0 auto;
+}
+
+
+
+.jm-gallery h1, .jm-gallery h4 {
+	color: #fff;
+}
+
 /* ================= MEDIA QUERIES ================= */	
 
 @media only screen and (max-width : 3840px) {
