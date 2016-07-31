@@ -195,15 +195,31 @@ p {
 
 /* ================= ARTICLES ================= */
 
+.jm-article {
+	text-align: center;
+}
+
 .jm-article h1 {
-	padding: 40px;
+	padding: 40px;	
+}
+
+.jm-article h2 {
+	color: #fff;	
 }
 
 .jm-article-img {
 	background: url(../imgs/joshua-maddox-ux-tips.jpg) no-repeat center center;
 	background-size: cover;
-	min-height: 500px;
-	text-align: center;
+}
+
+.jm-article-img-two {
+	background: url(../imgs/coding-960-500.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.jm-article-img-three {
+	background: url(../imgs/keys-960-500.jpg) no-repeat center center;
+	background-size: cover;
 }
 
 .jm-centerfy {
@@ -231,6 +247,12 @@ p {
 	color: #333;
 	background: rgba(50, 50, 50, .7);
 }
+
+.jm-test-row{
+	padding: 0;
+	margin: 0;
+}
+
 
 /* ================= MEDIA QUERIES ================= */	
 
