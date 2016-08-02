@@ -269,13 +269,6 @@ p {
 	transition: all 0.5s ease;
 }
 
-.btn:hover, 
-.btn:, 
-.btn: {
-	background: rgba(255, 255, 255, .3);
-	
-}
-
 .jm-social-block i {
 	color: #fff;
 	font-size: 65px;
@@ -353,6 +346,14 @@ p {
 	.jm-resume-toggle-four h2, /*ALLOWS RESUME BOX STYLING TO ALTERNATE COLORS ON MEIDA BREAK*/
 	.jm-resume-toggle-four h4 {
 		color: #fff;
+	}
+
+	h1 {
+		font-size: 76px;
+	}
+
+	h2 {
+		font-size: 30px;
 	}
 }
 
