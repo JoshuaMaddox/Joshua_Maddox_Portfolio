@@ -222,6 +222,16 @@ p {
 	background-size: cover;
 }
 
+.jm-article-img-four {
+	background: url(../imgs/money-960px-500px.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.jm-article-img-five {
+	background: url(../imgs/keys-960-500.jpg) no-repeat center center;
+	background-size: cover;
+}
+
 .jm-centerfy {
 	padding: 0 75px;
     -webkit-display: flex;
