@@ -154,6 +154,17 @@ p {
 	padding: 40px;
 }
 
+
+.jm-call-to-action {
+	background: #333;
+	text-align: center;
+	color: #fff;
+}
+
+.jm-action-btn {
+
+}
+
 /* ================= QUICK POINTS ================= */
 
 .jm-quick-points {
