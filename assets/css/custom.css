@@ -68,6 +68,22 @@ p {
 	font-size: 16px;
 }
 
+a,
+a:hover,
+a:active,
+a:focus {
+	text-decoration: none;
+	color: #fff;
+}
+
+.nav {
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+
+
 .btn { /*ADJUST BUTTON APPERANCE HERE*/
 	font-family: 'Oswald', sans-serif;
 	background: none;
@@ -154,15 +170,24 @@ p {
 	padding: 40px;
 }
 
-
+/* ================= CALL TO ACTION ================= */
 .jm-call-to-action {
 	background: #333;
 	text-align: center;
 	color: #fff;
+	padding: 40px 0;
 }
 
-.jm-action-btn {
+.jm-call-to-action h2 {
+	color: #fff;
+}
 
+.jm-call-to-action h2:hover {
+	background: rgba(255, 255, 255, .3);
+	outline: none !important;
+	color: #fff !important;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 
 /* ================= QUICK POINTS ================= */
@@ -229,12 +254,12 @@ p {
 }
 
 .jm-article-img-three {
-	background: url(../imgs/keys-960-500.jpg) no-repeat center center;
+	background: url(../imgs/30-minutes-photo-joshua-maddox.jpg) no-repeat center center;
 	background-size: cover;
 }
 
 .jm-article-img-four {
-	background: url(../imgs/money-960px-500px.jpg) no-repeat center center;
+	background: url(../imgs/joshua_maddox_cinderhouse_creative.jpg) no-repeat center center;
 	background-size: cover;
 }
 
@@ -272,6 +297,17 @@ p {
 .jm-test-row{
 	padding: 0;
 	margin: 0;
+}
+
+.jm-centerfy a {
+	color: #333;
+}
+
+.jm-centerfy a:hover,
+.jm-centerfy a:active,
+.jm-centerfy a:focus
+.jm-centerfy a:visited {
+	color: #fff;
 }
 
 /* ================= SOCIAL MEDIA  ================= */
